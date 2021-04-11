@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         view.addSubview(customView)
     }
     
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
@@ -35,8 +36,8 @@ class ViewController: UIViewController {
 
 extension ViewController: CustomViewDelegate{
     
-    func setTotalVal(_ num1: Int, _ num2: Int) {
-        customModel.set(num1, num2)
+    func setTotalVal(_ number1: Int, _ number2: Int) {
+        customModel.set(number1, number2)
     }
     
     func getTotalVal() -> Int {

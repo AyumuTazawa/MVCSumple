@@ -20,8 +20,8 @@ class CustomView: UIView {
     var textLavel: UILabel!
     var button: UIButton!
     
-    let num1 = 100
-    let num2 = 200
+    let number1 = 500
+    let number2 = 1000
     
     var totalNum: Int?
     
@@ -49,7 +49,7 @@ class CustomView: UIView {
     @objc func btTap(_ sender:UIButton){
         
         
-        delegate?.setTotalVal(self.num1, self.num2)
+        delegate?.setTotalVal(self.number1, self.number2)
         
         totalNum = delegate?.getTotalVal()
         

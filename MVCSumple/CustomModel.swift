@@ -9,16 +9,16 @@ import Foundation
 
 class CustomModel {
     
-    private var num1: Int?
-    private var num2: Int?
+    private var number1: Int?
+    private var number2: Int?
     
-    func set(_ num1:Int, _ num2: Int) {
-        self.num1 = num1
-        self.num2 = num2
+    func set(_ number1:Int, _ number2: Int) {
+        self.number1 = number1
+        self.number2 = number2
     }
     
     func get() -> Int {
-        let totalVal: Int = self.num1! + self.num2!
+        let totalVal: Int = self.number1! + self.number2!
         return totalVal
     }
 }
