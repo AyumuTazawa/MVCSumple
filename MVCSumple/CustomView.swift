@@ -40,6 +40,7 @@ class CustomView: UIView {
         button!.addTarget(self, action: #selector(btTap(_:)),
                           for: .touchUpInside)
         self.addSubview(button!)
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

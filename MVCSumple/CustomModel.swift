@@ -20,5 +20,6 @@ class CustomModel {
     func get() -> Int {
         let totalVal: Int = self.number1! + self.number2!
         return totalVal
+        
     }
 }
